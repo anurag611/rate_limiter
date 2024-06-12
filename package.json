@@ -1,0 +1,17 @@
+{
+  "name": "rate_limiter",
+  "version": "1.0.0",
+  "description": "This is a rate limiter for api calls",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon app.js",
+    "start" : "node app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.3"
+  }
+}
